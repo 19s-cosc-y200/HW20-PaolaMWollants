@@ -1,0 +1,34 @@
+Project Name: Hands-On Exercises 6.1-6.3 (HW20)  
+Author: Paola Wollants 
+Date Last Modified: May 2, 2019
+GitHub User: PaolaMWollants
+
+1. Write the CSS for an id with the following attributes: 
+float to the left of the page, light tan background, Verdana 
+or sans-serif large font, and 20 pixels of padding.
+
+#sec-1 { float: left;
+         background-color: #DEB887;
+         font-family: Verdana, sans-serif;
+         font-size: large;
+         padding: 20px;
+       }
+
+2. Write the CSS to configure a class that will produce a headline 
+with a dotted line underneath it. Choose a color that you like for 
+the text and dotted line.
+
+.head1 { border-bottom: 3px dashed #FF1493;
+         color: #FFFFFF;
+       }
+
+3. Write the CSS for an id that will be absolutely positioned on a 
+page 20 pixels from the top and 40 pixels from the right. This area
+should have a light gray background and a solid border.
+
+#feet1 { position: absolute;
+         position-top: 20px;
+         position-right: 40px;
+         background-color: D3D3D3;
+         border-style: solid;
+        } 
